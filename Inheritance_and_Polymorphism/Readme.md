@@ -53,7 +53,23 @@ Inheritance
 Polymorphism
 ------------
 
-polymorphism is the standout feature of OOP.
+Polymorphism is the standout feature of OOP. It enables JVM to determine which of the classes in a hierarchy is referenced by a superclass variable or parameter.
+
+    It is confusing if inheritence exists if you want to create a refrence variable using parent or child class.
+        example : if a Notebook class extends Computer class
+            we can create a refrence either a computer
+            Computer aComputer = new Computer();
+            or a notebook like
+            Computer aComputer - new Notebook();
+
+            because a Notebook is-a Computer.
+        
+        Note: An object of Subclass can be used wherever an object of its superclass is expected. On above example, 
+            the call to toString() method calls the one associated with Notebook class. The method is not determined
+            during compile time but during the runtime.
+
+
+        //Might add some more notes later...
 
 
     
